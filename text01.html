@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коты-Воители: мир диких племён</title>
+    <style>
+        body {
+            background-image: url('https://i127.fastpic.org/big/2026/0405/b7/008d44ff11344f27290d2701c72fd4b7.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            background-image: url('https://i127.fastpic.org/big/2026/0405/f2/fc413394f0114bef9e2192aed4f0a3f2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 180px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+        }
+
+        .header h1 {
+            color: #ffffff;
+            text-shadow: 3px 3px 6px black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 48px;
+            margin-top: 20px;
+        }
+
+        .header p {
+            color: #c9a0ff;
+            text-shadow: 2px 2px 5px black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: rgba(231, 208, 187, 0.85);
+            border-radius: 20px;
+            border-style: none;
+            margin: 10px;
+            padding-left: 40px;
+            padding-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card p, .card ul, .card li, .card strong {
+            color: #0a1f16;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card h2 {
+            color: #0a1f16;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            border-style: solid;
+            border-color: #e67e22;
+            border-radius: 10px;
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: large;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            display: block;
+            align-content: center;
+            font-size: xx-large;
+        }
+
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @media (min-width: 900px) {
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .card {
+                max-width: 400px;
+            }
+        }
+
+        @media (min-width: 100px) and (max-width: 650px) {
+            .button {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                display: block;
+            }
+        }
+
+        @media (min-width: 100px) and (max-width: 950px) {
+            .card-container {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Коты-Воители: мир диких племён</h1>
+        <p>Эпическая сага о кланах диких котов, их кодексе, войнах и судьбах</p>
+    </div>
+    <div class="card-container" id="cards">
+        <section class="card">
+            <h2>Основная концепция: Дикие коты, выживающие в лесу</h2>
+            <p>«Коты-Воители» - это масштабная серия книг (написанная коллективом авторов под псевдонимом Эрин Хантер), повествующая от историю лица котов, которые живут отдельно от людей. У них есть свое общество со своим Кодексом, верованиями, иерархией и территорией. Они делятся на четыре основных племени: Грозовое, Речное, Племя Теней и племя Ветра. Грозовое племя живет в светлой части леса, Теневое в глубине леса, Речное около реки, а племя Ветра в степи. Между ними существует хрупкое равновесие, поддерживаемое кодексом.</p>
+            <img src="https://i127.fastpic.org/big/2026/0405/c5/ccc4b780f22407820ff029b5f1872ec5.jpg" alt="Коты-Воители">
+        </section>
+        <section class="card">
+            <h2>Социальная структура и иерархия</h2>
+            <p>Каждое племя имеет четкую структуру, у каждого кота есть своя роль:</p>
+            <ul>
+                <li><strong>Глава племени:</strong> Лидер, чье имя всегда содержит суффикс «-звезд» (например, Огнезвёзд). Получает девять жизней и мудрость от предков.</li>
+                <li><strong>Глашатай:</strong> Заместитель главы племени. После смерти предводителя занимает его место. Его выбирает сам глава.</li>
+                <li><strong>Целитель:</strong> Отвечает за здоровье, духовную связь с предками (Звёздным племенем) и толкование примет. Чтобы стать целителем кот должен иметь сильную связь со Звездным племенем.</li>
+                <li><strong>Оруженосец:</strong> Кот-подросток, обучающийся воинскому мастерству у своего наставника. Их имена всегда заканчиваются на «-лапа».</li>
+                <li><strong>Воины:</strong> Основная боевая и охотничья сила племени.</li>
+                <li><strong>Старейшины:</strong> Бывшие воины, ушедшие на покой.</li>
+                <li><strong>Королевы:</strong> Кошки, ожидающие или выкармливающие котят. Это не постоянный статус, а этап жизни.</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Звёздное племя</h2>
+            <p>Коты верят, что после смерти воители попадают в Звёздное племя - небесных предков, которые наблюдают за живыми и дают им знаки через луну, звёзды, сны и пророчества. Пророчества - движущая сила большинства сюжетных арок. Их получают и расшифровывают целители, часто в особом священном месте - Лунном озере или Лунном камне. Антонимом Звёздного племени выступает Племя Тьмы - души отвергнутых и озлобленных котов, которые не следовали кодексу</p>
+            <img src="https://i127.fastpic.org/big/2026/0405/07/327e567ce65e455364feb50dae413807.jpg" alt="Звёздное племя">
+        </section>
+        <section class="card">
+            <h2>Центральные темы и конфликты</h2>
+            <p>Серия хоть и детская сказка о животных, но ней поднимаются взрослые и сложные темы:</p>
+            <ul>
+                <li><strong>Война и мир:</strong> Постоянная борьба за ресурсы (пища, территория), нарушение границ, кровная месть, но также и поиск дипломатии.</li>
+                <li><strong>Добро и зло:</strong> Персонажи не являются только положительными или отрицательными. Герои могут совершать ошибки, а враги - иметь мотивы.</li>
+                <li><strong>Цикл жизни и смерти:</strong> Смерть здесь постоянный и значимый элемент. Гибель персонажей - не редкость, даже главных героев цикла.</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Сюжетные арки и персонажи</h2>
+            <p>Серия состоит из нескольких циклов, каждый со своим главным героем. Самый первый и знаменитый цикл, «Стань диким!», знакомит читателей с миром через глаза Рыжика (позже Огнелапа и Огнезвёзда) - домашнего котёнка, который присоединяется к Грозовому племени и меняет его историю навсегда. Последующие арки рассказывают о его потомках, новых великих пророчествах и угрозах, ожидаюших главных героев.</p>
+        </section>
+        <section class="card">
+            <h2>Феномен и культурное влияние</h2>
+            <p>«Коты-Воители» стали глобальным культурным феноменом по нескольким причинам. Это иммерсивный мир с детальной историей и картами, куда легко погрузиться. Сообщество фанатов (в России и мире) огромно: они создают фан-арты, рассказы, ролевые игры, мемы и переводы. Особенно коты-воители повлияли на арт-сообщество. Именно они популяризовали такое явление как MAP. Несмотря на критику за повторяемость сюжетов, серия продолжает выходить, оставаясь одним из самых продолжительных и успешных проектов в жанре анималистического фэнтези.</p>
+        </section>
+    </div>
+</body>
+</html>
